@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div id='main'>
-      <div data-testid='counter'>Counter : {}</div>
+      <div data-testid='counter'>Counter : {selector}</div>
       <button onClick={() => dispatch(incNumber())}>+</button>
       <button onClick={() => dispatch(decNumber())}>-</button>
     </div>
