@@ -4,9 +4,8 @@ export const incNumber = () => {
     }
 }
 
-
 export const decNumber = () => {
     return {
         type: 'DECREMENT'
     }
-}
+};
