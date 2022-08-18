@@ -4,7 +4,7 @@ import { decNumber, incNumber } from '../actions/action';
 
 
 function App() {
-  const selector = useSelector((state) => state.updateValueReducer);
+  const selector = useSelector((state) => state);
   const dispatch = useDispatch();
 
   return (
